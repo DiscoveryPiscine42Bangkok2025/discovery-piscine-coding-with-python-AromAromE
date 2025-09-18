@@ -4,4 +4,4 @@ if (len(sys.argv) == 1):
 else:
     print(f"parameter: {len(sys.argv)-1}")
     for i in sys.argv[1:]:
-        print(i)
+        print(f"{i}: {len(i)}")
